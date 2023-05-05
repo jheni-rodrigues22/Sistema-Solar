@@ -1,0 +1,14 @@
+table{
+  border-collapse: collapse;
+}
+tr:hover {background-color: #50f4a7;}
+
+th{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+th:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
